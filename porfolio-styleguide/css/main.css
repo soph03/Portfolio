@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@200;300;400;500;600&family=Lato:wght@100;300;400;700&family=Nunito:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap');
+
+body{
+	font-family:'Lato', Helvetica, Arial, sans-serif;
+	color: #3A2B1B;
+}
+
+.main{
+	/*width: clamp(16rem, 90vw, 75rem);*/
+	margin-left: 1.5rem;
+	margin-right: 3rem;
+	margin-top: 6.3em;
+}
+
+h1{
+	font-size: 2.5em;
+	margin: 0 0;
+	margin-bottom: 0.5em;
+}
+
+h2{
+	margin-bottom: 1.2em;
+	font-size: 1.7em;
+	font-weight: 300;
+}
+
+h3{
+	font-size: 1.4em;
+	margin-bottom: 1.5em;
+	margin-top: 1.5em;
+}
+
+h3.no_margin_header{
+	margin: 0;
+}
+
+p.code_line{
+	font-size: 0.8rem;
+	margin-top: 1.3rem;
+	margin-bottom: 0;
+}
+.h1-sample{
+	font-size: 2em;
+}
+.lead-h2-sample{
+	font-size: 1.6em;
+	font-weight: 300;
+}
+.h2-sample{
+	font-size: 1.55em;
+	font-weight: 600;
+}
+.h3-sample{
+	font-size: 1.17em;
+}
+.h4-sample{
+	font-size: 1em;
+}
+.h5-sample{
+	font-size: 1em;
+	opacity: 0.7; 
+}
+
+code{
+	font-size: 0.7rem;
+}
+
+
+/*https://www.w3schools.com/cssref/sel_id.asp*/
+#colour, #typography, #list, #button, #link, #nav, #productdet, #grid{ 
+	padding-top: 1.5em;
+	padding-bottom: 3.2em;
+	border-bottom: 1px solid #EADDD0;
+	margin-bottom: 2.2em;
+}
+
+ul{
+	/*https://www.w3schools.com/css/tryit.asp?filename=trycss_list-style-type_ex */
+	list-style-type: none;
+}
+
+#list, #link, #grid{
+	border-bottom: none;
+}
+.link-sample{
+	color: #F0A04B;
+	text-decoration: none;
+}
+
+.nopad_list{
+	padding-left: 0;
+}
+
+nav a{
+	display: inline-block;
+	text-decoration: none;
+}
+
+/*https://www.w3schools.com/howto/howto_js_topnav.asp*/
+nav.mainnav{
+	background-color: #EADDD0;
+	overflow: hidden;
+	text-align: right;
+}
+
+nav.mainnav a{
+	padding: 1em 0.45em;
+}
+
+nav.sidenav{
+	margin: 6.3em 3em;
+	display: flex;
+	flex-direction: column;
+}
+nav.sidenav p{
+	font-size: 1.1em;
+	margin-bottom: 0em;
+	display: block;
+}
+
+nav.sidenav a{
+	font-size: 1em;
+	background-color: #FFFFFF;
+	color: #3A2B1B;
+	padding: 0.252em 0.45em;
+}
+
+nav.sidenav a:hover, nav.sidenav a:focus{
+	color: #F0A04B;
+}
+
+
+
+.font_sec{
+	margin-bottom: 2.5rem;
+}
+.no_margin{
+	margin-bottom: 0;
+}
+
+
