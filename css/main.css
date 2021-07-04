@@ -140,6 +140,9 @@ li{
 ul, ol{
 	 padding-left: 0;
 }
+ul#horizontal-list li{
+	display: inline;
+}
 a {
 	text-decoration: none;
 	color: #F0A04B;
@@ -160,7 +163,7 @@ footer a{
 	float: right;
 }
 #interview-survey-vscia p, #affinity-map-vscia p, #userjourney-vscia p,
-#workshop p, #insights p  {
+#workshop p, #insights p, #new-features p, #journal-app p, #solution-google p {
 	width: clamp(30ch, 100%, 65ch);
 }
 h5>em{
@@ -168,6 +171,11 @@ h5>em{
 	text-decoration: underline solid #F0A04B;
 	font-style: normal;
 }
+
+li.line-through{
+ text-decoration: line-through;
+}
+
 
 
 
@@ -442,6 +450,33 @@ p.workshop-desc{
   	border-width: 2px;
   	outline: #3A2B1B;
    }
+
+/* Google */
+ #horizontal-list li::before{
+  	content: "•   "; 
+  }
+  #vertical-list li::before{
+  	content: "•   "; 
+  }
+ .highlight-orange{
+ 	padding: 0.01rem 1.8rem 0.01rem 1.8rem;
+ 	background-color: #FDF4EA;
+ }
+ .highlight-orange h4{
+ 	margin-bottom: 0rem;
+ }
+ #solution-google ol li{
+ 	list-style-type: lower-alpha;
+ }
+ #solution-google ol{
+ 	padding-left: 1.7rem;
+ }
+.google-solution-background{
+	background-color: #EEF7FF;
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+}
+
 /* About */
 section#about{
 	padding-top: 10rem;
