@@ -74,16 +74,22 @@ p.thin-font{
 	margin-right: 5rem;
 	margin-top: 8rem;
 }
-.footer-container{
+.footer-container-home{
 	margin-left: 5rem;
 	margin-right: 5rem;
 	margin-top: 0rem;
 	margin-bottom: 5rem;
 }
+.footer-container{
+	margin-left: 5rem;
+	margin-right: 5rem;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
 .footer-link{
 	display: inline-block;
-   text-align: right;
    width: 100%;
+   margin-bottom: 0.5rem;
 }
 
 header, .project-container{
@@ -105,10 +111,7 @@ section{
     align-items: center;
     justify-content: space-between;
 }
-.footer-container{
-	margin-left: 5rem;
-	margin-right: 5rem;
-}
+
 em{
 	font-style: normal;
 }
@@ -159,9 +162,7 @@ footer a{
 	margin-bottom: 2rem;
 	margin-top: 0rem;
 }
-.footer-link{
-	float: right;
-}
+
 #interview-survey-vscia p, #affinity-map-vscia p, #userjourney-vscia p,
 #workshop p, #insights p, #new-features p, #journal-app p, #solution-google p {
 	width: clamp(30ch, 100%, 65ch);
@@ -176,6 +177,24 @@ li.line-through{
  text-decoration: line-through;
 }
 
+.back-up {
+  height: 2.6rem;
+  width: 2.6rem;
+  background-color: #B0AAA4;
+  position: fixed;
+  right: 3rem;
+ bottom: 4rem;
+ border-radius: 3px;
+}
+.arrow-up{
+	width: 50%;
+	height: 60%;
+  margin: 0 auto;
+  width: 0; 
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid white;
+}
 
 
 
@@ -424,16 +443,14 @@ p.workshop-desc{
   	margin-bottom: 0.3em;
   }
   
-  .bump-prototype{
-  	border-radius: 0.5rem;
+  .prototype{
 	padding: 1rem 3rem 1rem 3rem;
 	float: left;
 	text-align: center;
 	margin-right: 1.1rem;
 	margin-bottom: 1.1rem;
-	background-color: #F0A04B;
-	color: white;
- 
+	color: #F0A04B;
+	font-size: 1.2rem;
   }
 
 
@@ -443,12 +460,8 @@ p.workshop-desc{
   #reflection-bump h2{
   	color: #F0A04B;
   }
-  .bump-prototype:hover{
-  	background-color: white;
-  	color: #3A2B1B;
-  	border-style: solid;
-  	border-width: 2px;
-  	outline: #3A2B1B;
+  .prototype-button:hover{
+  	text-decoration: underline;
    }
 
 /* Google */
@@ -577,7 +590,7 @@ section#about{
 		margin-left: 2rem;
     	margin-right: 2rem;
 	}
-	.footer-container{
+	.footer-container, .footer-container-home{
 		margin-left: 2rem;
     	margin-right: 2rem;
 	}
@@ -608,10 +621,7 @@ section#about{
 	.vscia-name{
 		font-size: 0.35em; 
 	}
-	.footer-container{
-		margin-left: 2rem;
-    	margin-right: 2rem;
-	}
+
 	.bump-placement{
 		font-size: 0.8em;
 	}
