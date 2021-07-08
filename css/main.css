@@ -167,7 +167,7 @@ footer a{
 #workshop p, #insights p, #new-features p, #journal-app p, #solution-google p {
 	width: clamp(30ch, 100%, 65ch);
 }
-h5>em{
+h5>em, p>em{
 	display: inline;
 	text-decoration: underline solid #F0A04B;
 	font-style: normal;
@@ -183,7 +183,7 @@ li.line-through{
   background-color: #B0AAA4;
   position: fixed;
   right: 3rem;
- bottom: 4rem;
+ bottom: 3rem;
  border-radius: 3px;
 }
 .arrow-up{
@@ -484,8 +484,11 @@ p.workshop-desc{
  #solution-google ol{
  	padding-left: 1.7rem;
  }
+ section#solution-google{
+ 	padding-bottom: 0rem;
+ }
 .google-solution-background{
-	background-color: #EEF7FF;
+	background-color: #F2F9FF;
 	padding-top: 4rem;
 	padding-bottom: 4rem;
 }
