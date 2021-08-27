@@ -91,6 +91,15 @@
 	margin-bottom: 2rem;
 }
 
+/*Trackling*/
+.trackling-solution-grid{
+	display: grid;
+	grid-template-columns: 0.6fr 0.7fr;
+	grid-column-gap: 5.5em;
+	grid-row-gap: 4rem;
+	margin-top: 1rem;
+	margin-bottom: 2rem;
+}
 
 /* Bump */
 
