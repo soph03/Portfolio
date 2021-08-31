@@ -398,6 +398,7 @@ p.workshop-desc{
  }
 
 /* TRACKLING*/
+
   .trackling-solution-background{
   	background-color: #F3F9F8;
   	padding-top: 3rem;
@@ -408,6 +409,11 @@ p.workshop-desc{
   .h3-zeroblock{
   	margin-block-start: 0;
   	margin-block-end: 0;
+  }
+
+  #usertesting-trackling li{
+  	list-style-position: inside;
+  	list-style-type: decimal;
   }
 
 
