@@ -26,17 +26,17 @@
 	margin: 1em 3em 0em 3em;
 }
 
-.vscia-grid{
+.vscia-grid, .google-research-grid{
 	display: grid;
 	grid-template-columns: 0.55fr 1fr;
 	grid-column-gap: 4.5em;
 	margin-top: 1rem;
 	margin-bottom: 2rem;
 }
-.vscia-grid h2{
+.vscia-grid h2, .google-research-grid h2{
 	margin-top:0;
 }
-.vscia-grid h4, .vscia-grid h5{
+.vscia-grid h4, .vscia-grid h5, .google-research-grid h4{
 	margin-top:0.5rem;
 }
 .vscia-grid-three{
@@ -94,11 +94,16 @@
 /*Trackling*/
 .trackling-solution-grid{
 	display: grid;
-	grid-template-columns: 0.6fr 0.7fr;
-	grid-column-gap: 5.5em;
+	grid-template-columns: 0.4fr 0.7fr;
+	grid-column-gap: 4rem;
 	grid-row-gap: 4rem;
 	margin-top: 1rem;
 	margin-bottom: 2rem;
+	display: flex;
+	align-items: center;
+}
+.trackling-solution-dsc{
+	width: clamp(30ch, 80%, 75ch);
 }
 
 /* Bump */
@@ -155,7 +160,7 @@ p.persona-desc{
 /*Google*/
 .google-grid{
 	display: grid;
-	grid-template-columns: 0.7fr 0.6fr;
+	grid-template-columns: 0.55fr 0.75fr;
 	grid-column-gap: 5.5em;
 	grid-row-gap: 4rem;
 	margin-top: 1rem;
@@ -226,7 +231,7 @@ p.persona-desc{
 	.center-container-vscia,.center-container-bump, .center-container-about {
 	    padding: 0em 3.5em 0em 3.5em;
 	}
-	.vscia-grid{
+	.vscia-grid, .google-research-grid{
 		grid-template-columns: 1fr;
 	}
 	.summary-details-bump{

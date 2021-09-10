@@ -164,7 +164,7 @@ footer a{
 }
 
 #interview-survey-vscia p, #affinity-map-vscia p, #userjourney-vscia p,
-#workshop p, #insights p, #new-features p, #journal-app p, #solution-google p {
+#workshop p, #insights p, #new-features p, #journal-app p {
 	width: clamp(30ch, 100%, 65ch);
 }
 h5>em, p>em{
@@ -403,7 +403,6 @@ p.workshop-desc{
   	background-color: #F3F9F8;
   	padding-top: 3rem;
     padding-bottom: 2rem;
-    margin-bottom: 4em;
   }
 
   .h3-zeroblock{
@@ -411,10 +410,27 @@ p.workshop-desc{
   	margin-block-end: 0;
   }
 
-  #usertesting-trackling li{
+  #usertesting-trackling li, #solution-trackling li{
   	list-style-position: inside;
   	list-style-type: decimal;
   }
+.img-trackling-usertesting{
+	padding-top: 1em;
+	padding-bottom: 2em;
+}
+strong.green-font{
+	color: #4EAB5D;
+}
+strong.yellow-font{
+	color: #FAB70B;
+}
+strong.red-font{
+	color: #F04439;
+}
+
+.trackling-solution-dsc strong{
+	flex: none;
+}
 
 
   /*BUMP*/
@@ -486,7 +502,7 @@ font-size: 1.2rem;
 #horizontal-list li::before{
 	content: "•   "; 
 }
-#vertical-list li::before{
+.vertical-list li::before{
 	content: "•   "; 
 }
 .highlight-orange{
@@ -496,19 +512,23 @@ font-size: 1.2rem;
 .highlight-orange h4{
 	margin-bottom: 0rem;
 }
-#solution-google ol li{
+#solution-google ol li, #solution-trackling ol li{
 	list-style-type: lower-alpha;
 }
-#solution-google ol{
+#solution-google ol, .tab-list li{
 	padding-left: 1.7rem;
 }
-section#solution-google{
+section#solution-google, section#solution-trackling{
 	padding-bottom: 0rem;
 }
 .google-solution-background{
 	background-color: #F2F9FF;
 	padding-top: 4rem;
 	padding-bottom: 4rem;
+}
+#solution-google p, #solution-google li{
+	width: clamp(30ch, 75%, 65ch);
+
 }
 
 /* About */
