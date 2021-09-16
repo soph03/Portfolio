@@ -541,6 +541,20 @@ section#about{
     color: #F98D3E;
 }
 
+
+/* Shopify Poject Submission */
+.write-up-rectangle{
+	background-color: #D2CDF0;
+}
+.write-up-href{
+	color: #3A2B1B;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 2rem;
+	text-decoration: underline solid #F0A04B;
+}
+
 /* media querry*/
 
    @media screen and (max-width: 700px) {
