@@ -106,6 +106,12 @@
 	width: clamp(30ch, 80%, 75ch);
 }
 
+.revision-grid2{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 1rem;
+}
+
 /* Bump */
 
 .center-container-bump{

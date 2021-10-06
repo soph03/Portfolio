@@ -278,14 +278,14 @@
 		<h2>Design Ideas</h2>
 
 		<div>
-			<p>After observinng existing applications and their features, each of our team members brainstormed two new ideas that can help solve the user's problem.</p>
+			<p>After observing existing applications and their features, each of our team members brainstormed two new ideas that can help solve the user's problem.</p>
 			<h3>Top Ideas</h3>
-			<p>#1 Ability to connect with existing health monitor applications</p>
-			<p>#2 Specific health and exercise related questions post workout</p>
+			<p><strong>#1</strong> Ability to connect with existing health monitor applications</p>
+			<p><strong>#2</strong> Specific health and exercise related questions post workout</p>
 			<img src="img/trackling-designidea2.png" width="500">
-			<p>#3 Logging workout via BPM (Beats per minute) with difference colours</p>
+			<p><strong>#3</strong> Logging workout via BPM (Beats per minute) with difference colours</p>
 			<img src="img/trackling-designidea3.png" width="500">
-			<p>#4 Notify users to rest when their heart rate increases pass a safe zone</p>
+			<p><strong>#4</strong> Notify users to rest when their heart rate increases pass a safe zone</p>
 			<img src="img/trackling-designidea4.png" width="500">
 
 			<h3>First Draft</h3>
@@ -309,9 +309,9 @@
 		<h2>Design Revisions</h2>
 
 		<div>
-			<p class="para-item">From the first draft, we completed 2 more drafts with minor tweaks in colours, layouts and content. Once we finised our final design and working prototype, we completed<strong> two different tests to evaluate issues</strong>  that required changes.</p>
+			<p class="para-item">From the first draft, we completed two more with minor tweaks in colour, layout and content. Once we finised our final design and working prototype, we completed<strong> two different tests to evaluate important issues</strong>.</p>
 
-			<h3>Heuristics Evaluation</h3>
+			<h3>Test #1: Heuristics Evaluation</h3>
 			<p>Using Jakob Nielsen's 10 usability heuristics for user interface design <a href="https://www.nngroup.com/articles/ten-usability-heuristics/">(https://www.nngroup.com/articles/ten-usability-heuristics/)</a>, we discovered that the heuristic we neglected most throughout the application was <strong>helping users recognize, diagnose, and recover from errors.</strong></p>
 			<p>An example of this issue occuring is in the <strong>Sign-up</strong> process where the user clicks on the 'next' button. Without completing all of the fields, the <strong>interface does not generate change</strong> nor does it notify the user of the error (figure 1). The inability to help users recognize errors can cause fustrations to those who do not understand the reason of why they cannot continue to the next step.</p>
 			<p>A simple fix was to add a <strong>red border</strong> over unselected buttons or incomplete fields with an error message below to inform the user of the problem (figure 2).</p>
@@ -329,20 +329,69 @@
 				
 			</div>
 
-			<h3>User Testing</h3>
+			<h3>Test #2: User Testing</h3>
 			<h5>Due to the absence of an iPhone 11 and the imprecise aspect ratios on an alternative mobile device, testing was conducted on laptop.</h5>
 
 			<h4>Prominent Issues</h4>
-			<p>Although visual design is crucial in helping seniors use technology, through our testings we learned that seniors paid more attention to <strong>content and instructions</strong> rather than the visual cues.</p>
+			<p>Through our testings we learned that seniors paid more attention to <strong>content and instructions</strong> rather than the visual cues.</p>
 			<ol>
-				<li>Font size below 14</li>
-				<img src="img/trackling-testing1.png" class="img-trackling-usertesting">
-				<li>Low contrast colours</li>
-				<img src="img/trackling-testing2.png" class="img-trackling-usertesting">
-				<li>Inaccurate survey options</li>
-				<img src="img/trackling-testing3.png" class="img-trackling-usertesting">
-				<li>Jargon</li>
-				<img src="img/trackling-testing4.png" class="img-trackling-usertesting">
+				<div class="marginbottom-3">
+					<strong><li>Font size below 14</li></strong>
+					<figure class="ut-figure">
+						<img src="img/trackling-testing1a.png" class="img-trackling-usertesting">
+						<figcaption>Font size in survey</figcaption>
+					</figure>
+
+					<figure class="ut-figure">
+						<img src="img/trackling-testing1b.png" class="img-trackling-usertesting">
+						<figcaption>Revised font size in survey</figcaption>
+					</figure>
+					
+				</div>
+
+				<div class="marginbottom-3">
+					<strong><li>Low contrast colours</li></strong>
+					<figure class="ut-figure">
+						<img src="img/trackling-testing2.png" class="img-trackling-usertesting">
+						<figcaption>Old input: dark grey against light grey</figcaption>
+					</figure>
+
+					<figure class="ut-figure">
+						<img src="img/trackling-testing2a.png" class="img-trackling-usertesting">
+						<figcaption>Revised input: white against light grey</figcaption>
+					</figure>
+					
+				</div>
+
+				<div class="marginbottom-3">
+					<strong><li>Inaccurate survey options</li></strong>
+					<div class="revision-grid2">
+						<figure class="ut-figure">
+							<img src="img/trackling-testing3.png" class="img-trackling-usertesting">
+							<figcaption>Old</figcaption>
+						</figure>
+
+						<figure class="ut-figure">
+							<img src="img/trackling-testing3a.png" class="img-trackling-usertesting">
+							<figcaption>Revised options from low to high range</figcaption>
+						</figure>
+					</div>
+				</div>
+
+				<div class="marginbottom-3">
+					<strong><li>Jargon</li></strong>
+					<figure class="ut-figure">
+						<img src="img/trackling-testing4.png" class="img-trackling-usertesting">
+						<figcaption>Old</figcaption>
+					</figure>
+
+					<figure class="ut-figure">
+						<img src="img/trackling-testing4a.png" class="img-trackling-usertesting">
+						<figcaption>Revised word choices</figcaption>
+					</figure>
+					
+				</div>
+
 			</ol>
 
 			<h4>Others</h4>
@@ -356,9 +405,9 @@
 		
 		</div>
 
-		</div>
-		</div>
-	</section>
+		</div> <!-- vscia-grid-->
+		</div> <!-- center-container-vscia-->
+	</section> <!-- usertesting-trackling -->
 
 	<!-- Solution -->
 	<section id="solution">
@@ -429,7 +478,7 @@
 					<img src="img/trackling-solution1.gif" width="310">
 					<div>
 						<h4>Health Application Data Sync</h4>
-						<p class="trackling-solution-dsc">As Sam enters Trackling, she is brought to the Sign Up page where personal information is required. Not only is she able to input her information manually, but she can also <strong>sync health data from other applications</strong> to create a more seamless and personalized health tracking experience using exisiting information.</p>
+						<p class="trackling-solution-dsc">As Sam enters Trackling, she is brought to the Sign Up page where personal information is requested. Not only is she able to input her information manually, but she can also <strong>sync health data from other applications</strong> to create a more seamless and personalized health tracking experience using exisiting information.</p>
 						<!-- <p class="trackling-solution-dsc">In the onboarding, <strong>health data from other exisiting applications can be synced</strong>  with Trackling to create a more seamless and personalized health tracking experience using information, such as average resting BPM, steps taken in a day, week or month, and other performance-based statistics.</p> -->
 					</div>
 				</div>

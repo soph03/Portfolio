@@ -416,7 +416,6 @@ p.workshop-desc{
   }
 .img-trackling-usertesting{
 	padding-top: 1em;
-	padding-bottom: 2em;
 }
 strong.green-font{
 	color: #4EAB5D;
@@ -431,7 +430,11 @@ strong.red-font{
 .trackling-solution-dsc strong{
 	flex: none;
 }
-
+section figure.ut-figure{
+	margin-left: 0em;
+	margin-right: 0em;
+	margin-bottom: 1em;
+}
 
   /*BUMP*/
 .bump-placement{
