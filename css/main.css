@@ -257,10 +257,19 @@ li.line-through{
 em.home-desc-sap {
 	font-weight: 600;
 	font-size: 1em;
-	opacity: 0.5;
+	opacity: 0.45;
 	display: inline;
 	font-style: normal;
+	color: #7F95D1;
 }
+em.home-desc-currentpos {
+	font-weight: 600;
+	font-size: 1em;
+	display: inline;
+	font-style: normal;
+	color: #7F95D1;
+}
+
 /* https://w3bits.com/css-image-hover-zoom/*/
 .grow {
 	width: auto;
