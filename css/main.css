@@ -252,7 +252,8 @@ li.line-through{
 	width: clamp(27ch, 65%, 60ch);
 }
 .home-desc strong{
-	color: #F0A04B;
+	color: #F0A04B; 
+	font-weight: 400;
 }
 em.home-desc-sap {
 	font-weight: 600;
