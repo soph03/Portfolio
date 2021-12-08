@@ -258,7 +258,7 @@ li.line-through{
 em.home-desc-sap {
 	font-weight: 600;
 	font-size: 1em;
-	opacity: 0.45;
+	opacity: 1;
 	display: inline;
 	font-style: normal;
 	color: #7F95D1;
