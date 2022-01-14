@@ -217,7 +217,7 @@ p.persona-desc{
 		margin-bottom: 4em;
 	}
 	.about-item{
-		grid-column-start: 1;
+		grid-column-start: 0;
 	}
 }
 

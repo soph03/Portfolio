@@ -553,6 +553,9 @@ section#about{
     content: "• ";
     color: #F98D3E;
 }
+.about-item p{
+	font-size: 1rem;
+}
 
 
 /* Shopify Poject Submission */
