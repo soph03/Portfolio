@@ -13,8 +13,9 @@ Source Sans Pro
     box-sizing: border-box;
 }
 body{
-    font-family:'Lato', Helvetica, Arial, sans-serif;
-	color: #3A2B1B;
+  font-family:'Lato', Helvetica, Arial, sans-serif;
+	color: #FFFFFF;
+	background-color: #282D48;
 }
 
 section figure{
@@ -122,8 +123,8 @@ section{
 	margin-left: 5rem;
 	margin-right: 5rem;
 	display: flex;
-    align-items: center;
-    justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
 }
 
 em{
@@ -239,7 +240,7 @@ li.line-through{
 
 .nav-ul li a {
 	display:inline-block;
-	color:#3A2B1B;
+	color:#E2D2C1;
 }
 .margintop-0{
 	margin-top: 0;

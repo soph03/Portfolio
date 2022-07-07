@@ -88,6 +88,7 @@ p.secondaryproblem{
 	margin-right: 5rem;
 	margin-top: 8rem;
 }
+
 .footer-container-home{
 	margin-left: 5rem;
 	margin-right: 5rem;
@@ -192,22 +193,36 @@ li.line-through{
 }
 
 .back-up {
-  height: 2.6rem;
-  width: 2.6rem;
+  height: 2.8rem;
+  width: 2.8rem;
   background-color: #B0AAA4;
   position: fixed;
   right: 3rem;
  bottom: 3rem;
- border-radius: 3px;
+ border-radius: 50%;
 }
 .arrow-up{
-	width: 50%;
-	height: 60%;
+	border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 6px;
+  color: white;
+  position: relative;
+  left: 0.94rem;
+  top: 1.05rem;
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+
+	/* width: 50%;
+	height: 64%;
   margin: 0 auto;
-  width: 0; 
-  border-left: 10px solid transparent;
-  border-right: 10px solid transparent;
-  border-bottom: 10px solid white;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 17px solid white;*/
+}
+
+h3.margin-align, p.margin-align {
+	margin-top: 0.38rem;
 }
 
 
@@ -329,7 +344,7 @@ em.home-desc-currentpos {
 	margin-top: 0.5rem;
 }
 
-.highlight h5{
+.highlight h5, .highlight-darkgrey p, .highlight-darkgrey img{
 	font-size: 1.3rem;
 	font-weight: 400;
 	margin-top: 0.5rem;
@@ -559,6 +574,16 @@ section#solution-google, section#solution-trackling{
 
 }
 
+
+/*EA*/
+.ea-solution-background{
+	color: #FFFFFF;
+	background-color: #1D2033;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+
+
 /* About */
 section#about{
 	padding-top: 10rem;
@@ -631,7 +656,7 @@ section#about{
 
 @media (max-width: 110em){
 	.project-item{
-	    margin: 0em 23em 0em 23em;
+	    margin: 0em 20em 0em 20m;
 	}
 }
 
