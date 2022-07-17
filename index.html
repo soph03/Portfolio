@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="css/normalize.css">
+    <!-- <link rel="stylesheet" href="css/home_animation.css"> -->
 </head>
 
 <body>
@@ -20,7 +21,6 @@
 
 	<!-- Main Navigation -->
     <nav id="navigation">
-
 		
 		<a href="index.html"><img src="img/logo.png" id="#logo" alt="image of logo" width="40"></a>
 		
@@ -31,12 +31,11 @@
 	      	</div>
         </div>
 
-        <ul class ="nav-ul" id="nav-ul">
+        <ul>
     		<li><a href="index.html#home-projects">Work</a>
     		</li>
     		<li><a href="about.html">About</a></li>
     	</ul>
-
     </nav> <!-- navigation -->
 	
 </header>
@@ -44,21 +43,33 @@
 	<div class="main-container">
 
 		<section id="home-bio">
-			<h1>
-			Hi there! I'm Sophia Wang</h1>
-			
-			<h3 class="home-desc">A product designer passionate about creating a seemless <strong> digital experience</strong> and driving meaningful impact to different users. I am also curious about user experiences affected by <strong>physical products</strong> and <strong>space.</strong>
+			<div class="bio-picture">
+				<!-- <img src="img/ea-home-emoji.png" width="250"> -->
+			<svg viewbox="0 0 10 10">
+			  <circle class="smile" cx="5" cy="5" r="4"
+			    stroke-dashoffset="-.5"
+			    stroke-dasharray="11.5,13.6327" />
+			  <circle class="eyes" cx="5" cy="5" r="4" 
+			    stroke-dashoffset="-15.5"
+			    stroke-dasharray="0,6.6327,0,17.5" />
+			</svg>
+			</div>
+
+			<div>
+				<h1>Call me Soph(ia)</h1>
+				<h3 class="home-desc">Full-time product designer, passionate about bridging business strategy and user-focused designs for enterprise solutions. Part-time nutrition/food, travel, and snowboard enthusiast.
 				<br><br>
 				<em class="home-desc-sap"> Previous intern at SAP & EA </em>
 				<br>
 				<em class="home-desc-currentpos">Current UX Design intern at Avanade by Accenture</em>
-			</h3>
+				</h3>
+			</div>
 			
 		</section> <!-- home bio -->
 
 		<section id="home-projects">
 
-			<!-- EA 
+			<!-- EA -->
 
 				<div class="project-grid-item vscia-home grow">
 					<a href="ea.html"><img src="img/home-ea.png" alt="Image of EA project" width="1000"></a>
@@ -74,27 +85,6 @@
 					</div>
 					<div class="skill-highlight">
 						<p>Interface Design</p>
-					</div>
-				</div>
-				
-				-->
-				
-
-			<!-- VSCIA -->
-
-				<div class="project-grid-item vscia-home grow">
-					<a href="vscia.html"><img src="img/home-vscia.png" alt="Image of vscia project" width="1000"></a>
-				</div>
-
-				<div class="vscia-desc">
-					<a href="vscia.html" class="project-title"><h2 class="margintop-0 marginbottom-0">VSCIA</h2></a>
-					<h4 class="margintop-half">Vancouver Society for the Creation of Independent Art</h4>
-					<p>Strengthing stakeholder connection and discovering user needs through in depth user research</p>
-					<div class="skill-highlight">
-						<p>Interaction Design</p>
-					</div>
-					<div class="skill-highlight">
-						<p>User Research</p>
 					</div>
 				</div>
 
@@ -123,6 +113,44 @@
 				</div>
 
 
+			<!-- VSCIA -->
+
+				<div class="project-grid-item vscia-home grow">
+					<a href="vscia.html"><img src="img/home-vscia.png" alt="Image of vscia project" width="1000"></a>
+				</div>
+
+				<div class="vscia-desc">
+					<a href="vscia.html" class="project-title"><h2 class="margintop-0 marginbottom-0">VSCIA</h2></a>
+					<h4 class="margintop-half">Vancouver Society for the Creation of Independent Art</h4>
+					<p>Strengthing stakeholder connection and discovering user needs through in depth user research</p>
+					<div class="skill-highlight">
+						<p>Interaction Design</p>
+					</div>
+					<div class="skill-highlight">
+						<p>User Research</p>
+					</div>
+				</div>
+
+			<!-- Google -->
+
+			<div class="project-grid-item Moment-home grow">
+				<a href="google.html" class="project-title"><img src="img/home-google.png" alt="Image of google project" width="1000" ></a>
+			</div>
+
+			<div class="bump-desc">
+				<a href="google.html" class="project-title"><h2>Google My Maps</h2></a>
+				<p>Implementing a new feature using existing interface and interaction designs.</p>
+				<div class="skill-highlight">
+					<p>Interface Design</p>
+				</div>
+				<div class="skill-highlight">
+					<p>Exploratory Research</p>
+				</div>
+				<div class="skill-highlight">
+					<p>Prototyping</p>
+				</div>
+			</div>
+
 
 			<!-- Bump -->
 
@@ -148,25 +176,6 @@
 				</div>
 
 
-			<!-- Moment -->
-
-				<div class="project-grid-item Moment-home grow">
-					<a href="google.html" class="project-title"><img src="img/home-google.png" alt="Image of google project" width="1000" ></a>
-				</div>
-
-				<div class="bump-desc">
-					<a href="google.html" class="project-title"><h2>Google My Maps</h2></a>
-					<p>Implementing a new feature using existing interface and interaction designs.</p>
-					<div class="skill-highlight">
-						<p>Interface Design</p>
-					</div>
-					<div class="skill-highlight">
-						<p>Exploratory Research</p>
-					</div>
-					<div class="skill-highlight">
-						<p>Prototyping</p>
-					</div>
-				</div>
 			
 		</section> <!-- home-projects -->
 
