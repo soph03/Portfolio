@@ -222,7 +222,7 @@ footer a{
 
 #interview-survey-vscia p, #affinity-map-vscia p, #userjourney-vscia p,
 #workshop p, #insights p, #new-features p, #journal-app p, #existing-apps-trackling p, 
-#usertesting-trackling p,  #solution p, #solution-ea p {
+#usertesting-trackling p,  #solution p, #solution-ea p, #reflection p{
 	width: clamp(30ch, 100%, 65ch);
 }
 #context-ea p, #problem-ea p, #research-ea p, #existing-ea p, #considerations-ea p, #usertesting-ea p{
@@ -232,7 +232,7 @@ footer a{
 	width: clamp(30ch, 70%, 55ch);
 }
 
-h2>em, p>em{
+h2>em, p>em, h1>em{
 	display: inline;
 	text-decoration: underline solid #F0A04B;
 	font-style: normal;
@@ -615,10 +615,10 @@ font-size: 1.2rem;
 }
 
 
-#reflection-bump{
+#reflection{
 	background-color: #FDF4EA;
 }
-#reflection-bump h2{
+#reflection h2{
 	color: #F0A04B;
 }
 .prototype-button:hover{

@@ -65,9 +65,13 @@
 	align-items: center;
 }
 
+.greyhighlight{
+background-color: #F1F1F1;
+}
+
 .highlight-darkgrey{
 	background-color: #202020;
-	padding: 4em 20em;
+	padding: 4em 15em;
 	margin-bottom: 2rem;
 	text-align: center;
 	display: flex;
@@ -88,7 +92,7 @@
 .uj-img-vscia, .trackling-heuristic-grid{
 	display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-column-gap: 0.8em
+    grid-column-gap: 0.8em;
 }
 .uj-img-item{
 	flex-direction: column;
@@ -96,11 +100,6 @@
 .card-sort-desc, .userflow-desc{
 	grid-column: 2/3;
 }
-/*.vscia-placement{
-	display: grid;
-	grid-template-columns: 0.3fr 1fr;
-	align-items: center;
-}*/
 
 .vscia-solution-grid{
 	display: grid;
@@ -174,6 +173,14 @@ p.persona-desc{
 	margin-bottom: 2rem;
 	align-items: center;
 }
+
+.grid-twoColumn-ea{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin: 1rem 7rem 2rem 7rem;
+	align-items: center;
+}
+
 .ea-solution-grid{
 	display: grid;
 	grid-template-columns: 0.6fr 1fr;
@@ -183,6 +190,9 @@ p.persona-desc{
 	margin-bottom: 10rem;
 	display: flex;
 	align-items: center;
+}
+#solution-state-ea{
+	padding-top: 0rem;
 }
 
 
