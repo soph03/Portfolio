@@ -12,7 +12,7 @@
 	grid-template-columns: 0.6fr 1fr;
 	grid-column-gap: 5rem ;
 }
-.bio-picture{
+.animate{
 	display: block;
   margin-left: auto;
 }

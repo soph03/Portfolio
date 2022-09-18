@@ -408,7 +408,13 @@ svg:hover .eyes{animation: eyes 1s cubic-bezier(.7, 0.000, 0.4, 1.000);}
 @keyframes smile { 50% { stroke-dasharray:20,5.1327;} }
 @keyframes eyes  { 70% { stroke-dasharray:1,0,.5,23.6327;} }
 
-
+.animate{
+	animation:rotate 1.2s cubic-bezier(0.65, 0.000, 0.75, 1.000);
+}
+.animate .smiley{
+	animation: smile 1s cubic-bezier(0.2, 0.000, 0.8, 1.000);
+	animation: eyes 1s cubic-bezier(.7, 0.000, 0.4, 1.000);
+}
 
 
 /* VSCIA */ 
