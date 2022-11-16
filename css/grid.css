@@ -16,6 +16,12 @@
 	display: block;
   margin-left: auto;
 }
+.learn-more-grid{
+	display: flex;
+	align-items: center;
+	column-gap:  0.6rem;
+
+}
 
 
 /* VSCIA */
@@ -220,10 +226,10 @@ p.persona-desc{
 /* About */
 .about-grid{
 	display: grid;
-	grid-template-columns: 0.55fr 0.45fr;
+	grid-template-columns: 0.5fr 0.5fr;
 	grid-column-gap: 5em;
 }
-.value-grid, .SGoal-grid{
+.SGoal-grid{
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-column-gap: 2em; 
