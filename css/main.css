@@ -89,20 +89,26 @@ p.secondaryproblem{
 	margin-top: 8rem;
 }
 
-.footer-container-home{
-	margin-left: 5rem;
-	margin-right: 5rem;
-	margin-top: 0rem;
-	margin-bottom: 5rem;
+.footer-container-home p{
+	font-family: 'Space Mono' ;
+	/*color: #F0A04B;*/
 }
-.footer-container{
+
+.footer-container-home,.footer-container{
 	margin-left: 5rem;
 	margin-right: 5rem;
-	margin-top: 3rem;
-	margin-bottom: 3rem;
 	display: flex;
 	align-items: center;
   justify-content: space-between;
+} 
+
+.footer-container-home{
+	margin-top: 7rem;
+	margin-bottom: 5rem;
+}
+.footer-container{
+	margin-top: 3rem;
+	margin-bottom: 3rem;
 }
 
 .footer-link{
@@ -111,8 +117,9 @@ p.secondaryproblem{
    margin-bottom: 0.5rem;
 }
 
-.footer-right, .footer-left{
+.footer-right{
 	display: flex;
+	margin-left: auto;
 }
 
 .arrow-line-r{
