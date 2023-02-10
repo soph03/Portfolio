@@ -122,6 +122,10 @@ p.secondaryproblem{
 	margin-left: auto;
 }
 
+.footer-left{
+	display: flex;
+}
+
 .arrow-line-r{
   position: relative;
   left: 8px;
@@ -345,8 +349,8 @@ em.home-desc-currentpos {
 	display: inline;
 	font-style: normal;
 	color: #7F95D1;
-
 }
+
 
 
 .grow {
@@ -391,6 +395,9 @@ em.home-desc-currentpos {
   margin-bottom: 0.2em;
 }
 
+.summary-item h4{
+	margin-bottom: 0rem;
+}
 
 .learn-more{
 	transition: transform 750ms;
@@ -502,6 +509,7 @@ svg:hover .eyes{animation: eyes 1s cubic-bezier(.7, 0.000, 0.4, 1.000);}
 .center-container p{
 	margin-top: 0.5rem;
 }
+
 
 .highlight h5, .highlight-darkgrey img{
 	font-size: 1.3rem;

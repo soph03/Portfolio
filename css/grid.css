@@ -20,7 +20,20 @@
 	display: flex;
 	align-items: center;
 	column-gap:  0.6rem;
+}
+.past-companies-grid{
+	display: flex;
+	gap: 0.6rem;
+	align-items: center;
+	justify-items: start;
+	margin-bottom: 0.5rem;
+	margin-top: 0.5rem;
+}
 
+.solution_skip{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }
 
 
@@ -31,6 +44,11 @@
 	margin-bottom: 2rem;
 	display: flex;
 	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.summary-details li{
+	display: flex;
 	flex-wrap: wrap;
 }
 
@@ -78,7 +96,7 @@ background-color: #F1F1F1;
 .highlight-darkgrey{
 	background-color: #202020;
 	padding: 4em 15em;
-	margin-bottom: 2rem;
+	margin-bottom: 4rem;
 	text-align: center;
 	display: flex;
 	flex-direction: column;
@@ -116,6 +134,12 @@ background-color: #F1F1F1;
 }
 
 /*Trackling*/
+
+.grid-twoColumn-nogap h4{
+	margin-top: 0rem;
+	margin-bottom: 0rem;
+}
+
 .trackling-solution-grid{
 	display: grid;
 	grid-template-columns: 0.4fr 0.7fr;
@@ -175,6 +199,16 @@ p.persona-desc{
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-column-gap: 3em;
+	margin-top: 1rem;
+	margin-bottom: 2rem;
+	align-items: center;
+}
+
+#considerations-ea .grid-twoColumn{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 3em;
+	grid-row-gap: 2.5rem;
 	margin-top: 1rem;
 	margin-bottom: 2rem;
 	align-items: center;

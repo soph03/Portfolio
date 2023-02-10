@@ -59,15 +59,13 @@
 
 		<div class="summary-details">
 
-
 			<div class="summary-item">
-
-				<h4>Tags</h4>
+				<h4>Contributions</h4>
 				<ul>
+					<li>Problem identification</li>
+					<li>Application analysis</li>
+					<li>Competitive analysis</li>
 					<li>Interface design</li>
-					<li>Design Systems</li>
-					<li>User Research</li>
-					<li>Problem Prioritization</li>
 				</ul>
 			</div>
 
@@ -76,6 +74,7 @@
 				<h4>Project Type</h4>
 				<ul>
 					<li>Internship</li>
+					<li>Individual project</li>
 				</ul>
 			</div>
 
@@ -98,7 +97,7 @@
 	</div> <!-- project-item -->
 
 	<div class="center-container-vscia">
-	<div class = "project-item">
+		<div class = "project-item">
 
 		<h2 class="h2-lead">Overview</h2>
 
@@ -107,24 +106,44 @@
 			<p>EA is one of the largest gaming companies in the world, including games such as Apex Legends, The Sims 4, and It Takes Two. During my 4 month internship, I worked on the <strong>EA App</strong>, a PC platform for players to download and manage their games, as well as connect with other players across platforms. </p>
 		</div>
 
+		</div><!-- center-container-vscia -->
+	</div> <!-- project-item -->
+	
+
+	<!-- Problem -->
+	<section class="highlight-darkgrey">
+		<div class="center-container-vscia">
+			<h3>Problem</h3>
+			<h1 class="problem">Game tiles are presented at the <em>same level of importance</em> in the discovery setting.</h1>
+		</div>
+	</section> 
+
+
+	<div class="center-container-vscia">
+		<div class = "project-item">
+
+		<!--Problem Identification -->
 		<div class="para-item">
-			<h2>Project</h2>
-			<p>As a UX Design Intern, I discovered problems, created new game states and simplified the game tile system. Throughout the process, I worked with my Manager Dave, gaining experience presenting, building rationale, and practicing product thinking.</p>
+			<h2>Problem Identification</h2>
+			<p>Through user research, we identified that noveltiy is one the main motivators for game purchases. However, users <strong>cannot recognize the status of the game or their ownership to a game.</strong> This creates a design opportunity to draw increased attention to specific titles in a discovery setting.</p>
 		</div>
 
-		</div><!-- center-container-vscia -->
-		</div> <!-- project-item -->
+		<!-- Solution -->
+		<div class="para-item">
+			<div class="solution_skip">
+			<h2>Solution</h2>
+			<a class="footer-right" href="#solution-ea">skip to solution</a>
+			</div>
+			<p>Created new and improved game states to assist users in making purchasing decisions more quickly and efficiently.</p>
+			<figure>
+				<img src="img/ea-mock-final.png" alt="Image of EA application" width="900">
+			</figure>
+		</div>
+
+	 </div><!-- center-container-vscia -->
+	</div> <!-- project-item -->
 
 </section> <!-- overview -->
-
-
-<!-- Problem -->
-<section class="highlight-darkgrey">
-	<div class="center-container-vscia">
-		<h3>Problem</h3>
-		<h1 class="problem">Game tiles are presented at the <em>same level of importance</em> in the discovery setting.</h1>
-	</div>
-</section> 
 
 
 <section id="context-ea">
@@ -167,8 +186,14 @@
 
 				<div>
 					<h3>Pt 1. Problem identification</h3>
-					<p>To familiarize myself with game tiles and application, I conducted an audit to identify the <strong>different types</strong> of tiles in the app and read through previous <strong>user research reports.</strong></p>
-					<p>I sorted the tiles into groups (user journey, location, tile size, and archetype motivations) to identify potential <strong>inconsistencies and gaps</strong>.</p>
+					<p>To familiarize myself with game tiles and the application, I conducted an audit and identified potential <strong>inconsistencies and gaps</strong>.</p>
+					<p>Findings: </p>
+					<ul class="vertical-list">
+						<li>New games are not portrayed in game tiles.</li>
+						<li>Can we place price and discounts more effectively?</li>
+						<li>How should Add-on tiles be consistent?</li>
+						<li>Content in lists are used inconsistently.</li>
+					</ul>
 				</div>
 				
 				<div>
@@ -177,7 +202,7 @@
 
 				<div>
 					<h3>Pt 2. Problem prioritization</h3>
-					<p class="marginbottom-2">The problems we identified with my manager were sorted and organized from <strong>highest impact</strong> to <strong>least effort</strong> to determine which problems to focus on.</p>
+					<p class="marginbottom-2">Through the organization of problems from <strong>highest impact</strong> to <strong>least effort</strong> we determined which problems to focus on.</p>
 				</div>
 				<div>
 					<img src="img/ea-problemPriority.jpg">
@@ -210,13 +235,6 @@
 
 
 			<div class="grid-twoColumn">
-				<div>
-					<h3>Current Design</h3>
-					<p>On the landing page of the EA app, the game tile and the DLC tile carry the <strong>same components</strong>, except the DLC is differentiated through a <strong>grey badge.</strong></p>
-				</div>
-				<div>
-					<img src="img/ea-current-tiles.png">
-				</div>
 				
 				<div>
 					<h3>Competitive Analysis</h3>
@@ -255,7 +273,7 @@
 
 		<div class="center-container-vscia">
 
-			<h2>Existing Designs</h2>
+			<h2>Existing Design Patterns</h2>
 
 		<div class = "grid-twoColumn">
 
@@ -288,18 +306,10 @@
 
 		<div class = "grid-twoColumn">
 
-		<div>
-			<h3>Copy Ideas</h3>
-			<p>For copy inspiration and ideas, I learned the user journey of a player, analyzed the states used by competitors, and referred to states that are in the process of development.</p>
-			<p class="para-item">After discussing with my Manager, the game states we chose to focus on were: <strong>Coming soon, Pre-orderable, New, Discount percentage (ex. -30%), and In-collection.</strong></p>
-		</div>
-		<div>
-			<img src="img/ea-copy.png">
-		</div>
 
 		<div>
 			<h3>Information Hierarchy</h3>
-			<p>Although the position of the badge and the secondary text is fixed, there is some <strong>flexibility</strong> on where we want to place the tag. Through some exploring, having the 'New' label placed <strong>in front</strong> of the game title was the best fit because it provided <strong>separation</strong> between the other labels within the tile, a <strong>clear hierarchy</strong> and does not affect the title when the text wraps.</p>
+			<p>Through some exploring, we decided that the best fit was having the 'New' label placed <strong>in front</strong> of the game title because it provided <strong>separation</strong> between the other labels and a <strong>clear hierarchy.</strong></p>
 		</div>
 		<div>
 			<img src="img/ea-orderinfo.png">
@@ -307,10 +317,18 @@
 
 		<div>
 			<h3>Visual Hierarchy</h3>
-			<p>Due to <strong>sales</strong> being the main driver of <strong>revenue</strong>, the discount state respectively leads in the visual hierarchy, followed by the 'New' state, where I learned from user interviews and competitive analysis that new games are a <strong>key motivator</strong> for players. Lastly, we have the rest of the states incorporating a muted visual.</p>
+			<p>Due to <strong>sales</strong> being the main driver of <strong>revenue</strong>, the discount state (on the very left) leads in the visual hierarchy, followed by the 'New' state, which is a <strong>key motivator</strong> for players. Then we have the rest of the states incorporating a muted visual.</p>
 		</div>
 		<div>
 			<img src="img/ea-design-order.png">
+		</div>
+
+		<div>
+		<h3>Design Priority</h3>
+			<p>Each state takes a <strong>different priority</strong> from the other. When states are in conflicting situations, the labels on the left take higher priority.</p>
+		</div>
+		<div>
+			<img src="img/ea-changes-final.png">
 		</div>
 			
 		</div> <!-- grid-twoColumn -->
@@ -328,7 +346,7 @@
 
 			<div class="draft1">
 				<h3>First Draft</h3>
-				<p>A few designs were brought to the greater design team and it was agreed that this design could be pursued further because the separation between the badges and labels helped create a <strong>stronger visual hierarchy.</strong></p>
+				<p>It was agreed upon that this design could be pursued further because the separation between the badges and labels helped create a <strong>stronger visual hierarchy.</strong></p>
 				<p>However, one issue that we encountered is the <strong>visual noise</strong> produced by the 4 different labels within the add-on tile.</p>
 			</div>
 			<div>
@@ -434,8 +452,26 @@
 
 		<h2>Final Polish</h2>
 
-			<p>Goals of game state:</p>
+			<p>Goal of game state:</p>
 			<h3>To Attract</h3>
+
+				<div class="ea-solution-grid">
+					<img src="img/ea-existing-final.png" width="260">
+					<div class="trackling-solution-dsc">
+						<h4>Existing Game</h4>
+						<p>Sam enters the EA app during the holiday season and immediately notices the discounted label on a few games.</p>
+					</div>
+				</div>
+
+
+				<div class="ea-solution-grid">
+					<img src="img/ea-new-final.png" width="260">
+					<div>
+						<h4>New Game</h4>
+						<p class="trackling-solution-dsc">He then sees the 'New' label that is indicated on recently released games.</p>
+					</div>
+				</div>
+
 
 				<div> <!-- test -->
 				<div class="ea-solution-grid">
@@ -445,28 +481,8 @@
 					</div>
 					<div>
 						<h4>Unreleased Game</h4>
-						<p class="trackling-solution-dsc">Before the release of a game, there are two states: Coming soon and Pre-orderable. </p>
-						<p>Unreleased games are denoted with a 'Coming soon' label and if they are orderable, a price tag is included in addition to the label.</p>
-					</div>
-				</div>
-
-		
-
-				<div class="ea-solution-grid">
-					<img src="img/ea-new-final.png" width="260">
-					<div>
-						<h4>New Game</h4>
-						<p class="trackling-solution-dsc">When a game is released, the game tile would include the 'New' label to notify and attract players.</p>
-					</div>
-				</div>
-
-			
-
-				<div class="ea-solution-grid">
-					<img src="img/ea-existing-final.png" width="260">
-					<div class="trackling-solution-dsc">
-						<h4>Existing Game</h4>
-						<p>On special occasions and holidays, EA offers games at a discounted price. During this time, selected games will have a discounted percentage to reflect the change.</p>
+						<p class="trackling-solution-dsc">Sam also notices two other states: Coming soon and Pre-orderable. </p>
+						<p>Sam can pre-order games that have a 'Coming soon' label followed by a price.</p>
 					</div>
 				</div>
 
@@ -478,7 +494,7 @@
 					<img src="img/ea-purchased-final.png" width="260">
 					<div class="trackling-solution-dsc">
 						<h4>Purchased Game</h4>
-						<p>After a game is purchased, the 'In Collection' label appears under the title to signify that the game has been added to the user's collection and is ready to be played.</p>
+						<p>Once Sam has purchased a game, an 'In Collection' label appears under the title to signify that the game has been added to his collection and is ready to be played.</p>
 				</div>
 
 			</div> <!-- test -->
@@ -493,11 +509,6 @@
 		<div class="center-container-vscia">
 		<div class="project-item">
 
-			<h2>Design Priority</h2>
-			<img src="img/ea-changes-final.png">
-			<p>Each state takes a <strong>different priority</strong> from the other. When states are in conflicting situations, the labels on the left take higher priority.</p>
-			<p class="para-item">For example, if Plants vs. Zombies was a new game and had a discount promotion, only the discount tag would appear under the game tile. </p>
-
 
 			<h2 class="h2-lead">Summary of Changes</h2>
 			<h2>Tile System Simplifications</h2>
@@ -509,13 +520,13 @@
 				<li class="para-item">Removing the original strike-through price</li>
 			</ul>
 
-			<h2>Impact</h2>
+			<!-- <h2>Impact</h2>
 			<ul class="vertical-list">
 				<li>50 million plus users can understand the state of a game </li>
 				<li>50 million plus users can understand their ownership to a game </li>
 				<li>Users become more aware of the state of the game -> users purchase desicions more quickly -> more sales conversions </li>
 				<li class="para-item">Removing the original strike-through price</li>
-			</ul>
+			</ul> -->
 
 		</div> <!-- project item -->
 		</div><!-- center-container-bump -->
