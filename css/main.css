@@ -236,8 +236,9 @@ footer a{
 #usertesting-trackling p,  #solution p, #solution-ea p, #reflection p{
 	width: clamp(30ch, 100%, 65ch);
 }
-#context-ea p, #problem-ea p, #research-ea p, #existing-ea p, #considerations-ea p, #usertesting-ea p{
-	width: clamp(30ch, 70%, 60ch);
+#context-ea p, #problem-ea p, #research-ea p, #existing-ea p, #considerations-ea p, 
+#usertesting-ea p, #research-ea ul{
+	width: clamp(30ch, 75%, 65ch);
 }
 #solution-state-ea p {
 	width: clamp(30ch, 70%, 55ch);
@@ -373,7 +374,7 @@ em.home-desc-currentpos {
 #home-bio h1{
 	font-family: 'Space Mono' ;
 	font-weight: 100;
-	font-size: 4.2rem;
+	font-size: 4rem;
 	letter-spacing:-4px;
 	word-spacing: -15px;
 	margin: 0.2em 0;
@@ -383,8 +384,8 @@ em.home-desc-currentpos {
   display: inline-block;
   border-radius: 0.3rem;
   padding: 0rem 0.6rem 0rem 0.6rem;
-  background-color: rgba(58, 43, 27, 0.09);
-  color: rgb(58, 43, 27);
+  background-color: rgba(127, 149, 209,0.15);
+  color: #5f7bc5;
   margin: .1em .1em;
   text-align: center;
 }
@@ -738,6 +739,12 @@ font-size: 1.2rem;
 }
 #solution-google ol, .tab-list li{
 	padding-left: 1.7rem;
+}
+.solution-ea li{
+	padding-bottom: 0.5rem;
+}
+.solution-ea ol{
+	padding-left: 1.2rem;
 }
 section#solution-google, section#solution-trackling, section#solution-ea{
 	padding-bottom: 0rem;
