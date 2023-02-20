@@ -383,9 +383,8 @@ em.home-desc-currentpos {
 .skill-highlight{
   display: inline-block;
   border-radius: 0.3rem;
-  padding: 0rem 0.6rem 0rem 0.6rem;
-  background-color: rgba(127, 149, 209,0.15);
-  color: #5f7bc5;
+  padding: 0rem 0.6rem 0rem 0.4rem;
+  background-color: rgba(127, 149, 209,0.3);
   margin: .1em .1em;
   text-align: center;
 }
@@ -813,9 +812,6 @@ section#about{
     content: "• ";
     color: #F98D3E;
 }*/
-.about-item p{
-	font-size: 1rem;
-}
 
 .about-tag{
 	display: inline-block;
