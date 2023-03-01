@@ -332,6 +332,10 @@ h3.margin-align, p.margin-align {
 .home-desc{
 	width: clamp(27ch, 85%, 65ch);
 }
+h2.home-desc{
+	opacity: 0.6;
+	font-weight: 500;
+}
 
 .home-desc strong{
 	color: #F0A04B; 
@@ -456,7 +460,7 @@ em.home-desc-currentpos {
     border-right: 1.85px solid;
     transform: rotate(45deg);
     right: 0;
-    bottom: -2.796px
+    bottom: -1.796px
 }
 
 
