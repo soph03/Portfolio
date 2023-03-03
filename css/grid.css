@@ -147,6 +147,7 @@ background-color: #F1F1F1;
 }
 .trackling-solution-dsc{
 	width: clamp(30ch, 80%, 75ch);
+	margin-left: 6.5em;
 }
 
 .revision-grid2{
