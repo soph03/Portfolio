@@ -12,182 +12,88 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="css/normalize.css">
-    <!-- <link rel="stylesheet" href="css/home_animation.css"> -->
+    <link rel="stylesheet" href="css/fonts.css">
 </head>
 
 <body>
+<div class="main-container">
+<section id="home">
 
-<header>
+    <div>
+        <!-- Main Navigation -->
+        <nav id="navigation">
+            <ul>
+                <li><a href="index.html#home-projects">Sophia</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="img/Resume_Wang_Sophia.pdf" target="_blank">Contact</a></li>
+            </ul>
+        </nav> <!-- Main Navigation -->
+    </div>
 
-	<!-- Main Navigation -->
-    <nav id="navigation">
-		
-		<a href="index.html"><img src="img/logo.png" id="#logo" alt="image of logo" width="40"></a>
-		
+    <div> <!-- Main Content -->
 
-		<div class ="nav-menu-end">
-	        <div class ="hamburger" id ="hamburger">
-	          &#9776; 
-	      	</div>
+        <div id="home-bio">
+            <h2>Hi, I’m Sophia, a Product Designer with a background in Interactive Design and Business Strategy. <br>Previously at SAP, Electronic Arts, and Avanade. <br>Looking for full time opportunities.</h2>
         </div>
 
-        <ul>
-    		<li><a href="index.html#home-projects">Work</a>
-    		</li>
-    		<li><a href="about.html">About</a></li>
-    		<li><a href="img/Resume_Wang_Sophia.pdf" target="_blank">Resume</a></li>
-    		<!--<li><a href = "mailto: wang.922sophia@gmail.com">Contact</a></li>-->
-    	</ul>
-    </nav> <!-- navigation -->
-	
-</header>
+        <div id="home-projects">
+            <a href="ea.html">
+            <div class="home-projects-grid ea-project">
+                <img src="img/home-project-ea-img.png" width="500">
+                <div class="home-projects-desc">
+                    <h3>Electronic Arts</h3>
+                    <p>Allowing users to become more aware of a game's state with display tiles.</p>
+                </div>
+            </div>
+            </a>
 
-	<div class="main-container">
+            <a href="trackling.html">
+             <div class="home-projects-grid trackling-project">
+                <img src="img/home-project-trackling-img.png" width="500">
+                <div class="home-projects-desc">
+                    <h3>Trackling</h3>
+                    <p>Helping seniors through personalized physical activity with data centered and accessible design.</p>
+                </div>
+            </div>
+            </a>
 
-		<section id="home-bio">
-			<div class="animate">
-				<!-- <img src="img/ea-home-emoji.png" width="250"> -->
-				<svg viewbox="0 0 10 10">
-				  <circle class="smile" cx="5" cy="5" r="4"
-				    stroke-dashoffset="-.5"
-				    stroke-dasharray="11.5,13.6327" />
-				  <circle class="eyes" cx="5" cy="5" r="4" 
-				    stroke-dashoffset="-15.5"
-				    stroke-dasharray="0,6.6327,0,17.5" />
-				</svg>
-			</div>
+            <a href="vscia.html">
+            <div class="home-projects-grid vscia-project">
+                <img src="img/home-project-vscia-img.png" width="500">
+            
+                <div class="home-projects-desc">
+                    <h3>Vancouver Society for the Creation of Independent Art</h3>
+                    <p>Strengthing stakeholder connection between organizers and coventions participants through in depth user research.</p>
+                </div>
+            </div>
+            </a> <!-- vscia.html-->
 
-			<div>
-				<h1>Call me Soph(ia)</h1>
-				<h2 class="home-desc">Curious and ambitious learner with skills ranging from interaction design, user research, website building to business strategy.</h2>
-				
-				<div class="past-companies-grid">
-					<div><em class="home-desc-currentpos"> Previously at</em></div>
-					<div><img src="img/SAP_logo.png" width="50"></div>
-					<div><img src="img/ea_logo.png" width="110"></div>
-					<div><img src="img/Avanade_logo.png" width="90"></div>
-				</div>
-				<!-- <em class="home-desc-currentpos">Looking for 2023 opportunities.</em>-->
-				</h3>
-			</div>
-			
-		</section> <!-- home bio -->
+        </div> <!--home-projects-->
 
-		<section id="home-projects">
+        <div id="home-about">
+            <div class="home-about-title">
+                <h2>About</h2>
+            </div>
+            <div>
+                <p>I study Interactive Design and Business Marketing at Simon Fraser University. My skills range from UX/UI design, user research, website building to business strategy. I enjoy working in a innovative, challenging, and organized teams.</p>
+                <p>Out of work, you can find me learning about nutrition, discovering new music, exploring different cities/countries, and snowboarding on Whistler Mountain.</p>
+                <p>Currently working PST and open to relocating :) </p>
+            </div>
 
-			<!-- EA -->
+            <div class="home-links">
+                <a href="" class="resume-button">Resume</a>
+                <a href="" class="linkedln-button">Linkedln</a>
+            </div>
 
-				<div class="project-grid-item vscia-home grow">
-					<a href="ea.html"><img src="img/home-ea.png" alt="Image of EA project" width="1000"></a>
-				</div>
+        </div>
 
-				<div class="bump-desc">
-					<a href="ea.html" class="project-title"><h2>Electronic Arts</h2></a>
-					<p>Allowing users to become more aware of a game's state with display tiles.</p>
-					<a href="ea.html" class="learn-more learn-more-grid learn-more-ea">
-						<p>Learn more</p>
-						<div class="learn-more-arrow"></div>
-					</a>
-
-				</div>
+        
+    </div> <!-- Main Content -->
 
 
-			<!-- Trackling -->
+</section> <!--home-->
 
-				<div class="project-grid-item vscia-home grow">
-					<a href="trackling.html"><img src="img/home-trackling.png" alt="Image of trackling project" width="1000"></a>
-				</div>
-
-				<div class="bump-desc">
-					<a href="trackling.html" class="project-title"><h2>Trackling</h2></a>
-					<p>Helping seniors through personalized physical activity with data centered and accessible design.</p>
-					<a href="trackling.html" class="learn-more learn-more-grid learn-more-track">
-						<p>Learn more</p>
-						<div class="learn-more-arrow"></div>
-					</a>
-				</div>
-
-
-			<!-- VSCIA -->
-
-				<div class="project-grid-item vscia-home grow">
-					<a href="vscia.html"><img src="img/home-vscia.png" alt="Image of vscia project" width="1000"></a>
-				</div>
-
-				<div class="vscia-desc">
-					<a href="vscia.html" class="project-title"><h2 class="margintop-0 marginbottom-0">VSCIA</h2></a>
-					<h4 class="margintop-half">Vancouver Society for the Creation of Independent Art</h4>
-					<p>Strengthing stakeholder connection between organizers and coventions participants through in depth user researchs</p>
-					<a href="vscia.html" class="learn-more learn-more-grid learn-more-vscia">
-						<p>Learn more</p>
-						<div class="learn-more-arrow"></div>
-					</a>
-				</div>
-
-			<!-- Google -->
-
-			<div class="project-grid-item Moment-home grow">
-				<a href="google.html" class="project-title"><img src="img/home-google.png" alt="Image of google project" width="1000" ></a>
-			</div>
-
-			<div class="bump-desc">
-				<a href="google.html" class="project-title"><h2>Google My Maps</h2></a>
-				<p>Implementing a new feature using existing interface and interaction designs.</p>
-				<a href="google.html" class="learn-more learn-more-grid learn-more-google">
-					<p>Learn more</p>
-					<div class="learn-more-arrow"></div>
-				</a>
-			</div>
-
-
-			<!-- Bump -->
-
-				<!-- <div class="project-grid-item bump-home grow">
-					<a href="bump.html" class="project-title"><img src="img/home-bump.png" alt="Image of vscia project" width="1000" ></a>
-				</div>
-
-				<div class="bump-desc">
-					<a href="bump.html" class="project-title"><h2>Bump</h2></a>
-					<p>An application that mimics real life interaction in a digital setting.</p>
-		
-					<div class="skill-highlight">
-						<p>Hackathon</p>
-					</div>
-					<div class="skill-highlight">
-						<p>Web Design</p>
-					</div>
-					<div class="skill-highlight">
-						<p>Prototyping</p>
-					</div>
-				</div>
-
---> 
-			
-		</section> <!-- home-projects -->
-
-		</div> <!-- main-container -->
-
-		<footer id="footer">
-			<div class="footer-container-home">
-				<!-- <hr class="footer-line"> 
-
-				<div class="footer-link">
-					<a href="https://www.linkedin.com/in/sophialuwang/" target="_blank"><img src="img/linkedin-footer.png" alt="Image of linkedin icon" width="22"></a>
-	            	<a href="https://www.instagram.com/spamnham22/" target="_blank"><img src="img/insta-footer.png" alt="Image of instagram icon"  width="22"></a>
-            	</div> -->
-
-            	<!-- <p class="footer-left">Wang.922sophia@gmail.com</p>-->
-            	<p class="footer-right">Design and coded with love</p>
-				
-			</div>
-		</footer>
-		
-
-	<script src="js/hamburger.js"></script>
-	<script src="js/scroll_trigger.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
+</div> <!-- main-container -->
 
 </body>
-
 </html>

@@ -1,21 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@200;300;400;500;600&family=Lato:wght@100;300;400;700&family=Nunito:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@200;300;400;500;600&family=Lato:wght@100;300;400;700&family=Nunito:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@600&family=Space+Mono:wght@700&family=Syne:wght@600&display=swap');
-/* Font options
-Nunito
-Lato
-Heebo
-Karla
-Glacial Indifference
-Rubik
-Work Sans
-Source Sans Pro
 */
 * {
     box-sizing: border-box;
 }
 body{
-   font-family:'Helvetica neue', 'Helvetica', 'Arial';
-	color: #3A2B1B;
+  font-family:'Helvetica neue', 'Helvetica', 'Arial';
 }
 
 section figure{
@@ -81,12 +72,6 @@ h3.thin{
 p.secondaryproblem{
 	font-weight: 300;
 	font-size: 1.1rem;
-}
-
-.main-container{
-	margin-left: 5rem;
-	margin-right: 5rem;
-	margin-top: 8rem;
 }
 
 .footer-container-home p{
@@ -285,6 +270,10 @@ h3.margin-align, p.margin-align {
 	margin-top: 0;
 }
 
+.side-nav{
+	top: 0;
+  position: sticky;
+}
 
 /*Hamburger*/
 
@@ -316,198 +305,75 @@ h3.margin-align, p.margin-align {
 
 
 /* Home page */
-.project-title{
-	color: #3A2B1B;
-}
-#nav-link{
-	float: right;
-}
-.project-grid-item-hover{
-	/*display: none;*/
-}
-.vscia-name{
-	font-size: 0.5em; 
-	display: block;
-}
-.home-desc{
-	width: clamp(27ch, 85%, 65ch);
-}
-h2.home-desc{
-	opacity: 0.6;
-	font-weight: 400;
-	font-size: 1.2em;
+.home-projects-grid img{
+	margin-left: 2rem;
 }
 
-.home-desc strong{
-	color: #F0A04B; 
-}
-em.home-desc-sap {
-	font-weight: 600;
-	font-size: 1.1em;
-	opacity: 0.5;
-	display: inline;
-	font-style: normal;
-	color: #7F95D1;
-}
-em.home-desc-currentpos {
-	font-weight: 600;
-	font-size: 1.2em;
-	display: inline;
-	font-style: normal;
-	color: #7F95D1;
+.ea-project:hover{
+	border-color: #EAEEF6;
+	background-color: #EAEEF6;
 }
 
-
-
-.grow {
-	width: auto;
-  overflow: hidden;
-  border-radius: 0.7rem;
-}
-.grow img{ 
-	transition: transform 750ms ease;
-}
-.grow:hover img{ 
-	 transform: scale(1.04);
+.trackling-project:hover{
+	border-color: #F3F9F8;
+	background-color: #F3F9F8;
 }
 
-#home-bio h3{
-	font-weight: 400;
-	font-size: 1rem;
-	line-height: 1.4em;
-}
-#home-bio h1{
-	font-family: 'Space Mono' ;
-	font-weight: 100;
-	font-size: 4rem;
-	letter-spacing:-4px;
-	word-spacing: -15px;
-	margin: 0.2em 0;
+.vscia-project:hover{
+	border-color: #F3F3FE;
+	background-color: #F3F3FE;
 }
 
-.skill-highlight{
-  display: inline-block;
-  border-radius: 0.3rem;
-  padding: 0rem 0.6rem 0rem 0.4rem;
-  background-color: rgba(127, 149, 209,0.3);
-  margin: .1em .1em;
-  text-align: center;
+.resume-button , .linkedln-button{
+	border-width: 1.8px; 
+	border-style: solid;
+	padding: 0.8rem 4rem;
+  	max-width: 12em;
+	text-decoration: none;
+	font-size: 1.5rem;
+	color: #000000;
+	margin-bottom: 1rem;
 }
 
-.skill-highlight p{
-	font-size: 0.9em;
-	margin-top: 0.2rem;
-  margin-bottom: 0.2em;
+.resume-button:hover{
+	border-color: #FFFFFF;
+	background-color: #000000;
+	color: #FFFFFF;
 }
 
-.summary-item h4{
-	margin-bottom: 0rem;
+.linkedln-button:hover{
+	border-color: #0E76aE;
+	background-color: #0E76A8;
+	color: #FFFFFF;
 }
 
-.learn-more{
-	transition: transform 750ms;
-  will-change: transform;
+#home-bio h2{
+	font-weight: 10;
+	font-size: 2rem;
+	margin: 0;
+	width: clamp(25ch, 85%, 45ch);
 }
 
-.learn-more:hover, .learn-more:focus{
-	transform: translateX(10px);
+.home-projects-grid p{
+	width: clamp(25ch, 85%, 45ch);
 }
 
-.learn-more-ea{
-	color: #5676b7;
+#home-about h2{
+	margin-top: 0;
 }
 
-.learn-more-track{
-	color: #63b1a4;
+#navigation li{
+	padding-left: 0;
 }
 
-.learn-more-vscia{
-	color: #8080f4;
+#navigation ul{
+	margin: 0;
+	padding: 0;
 }
 
-.learn-more-google{
-	color: #69b8ff;
+#home-projects a{
+	color: #000000;
 }
-
-
-/*.learn-more{
-	display: block;
-	border-radius: 2rem;
-	padding: 0.2rem 1.5rem 0.2rem 1.5rem;
-	float: left;
-	text-align: center;
-	margin-right: 1.1rem;
-	background-color: rgba(58, 43, 27, 0.09);
-	color: rgb(58, 43, 27);
-}*/
-
-.learn-more-arrow {
-    box-sizing: border-box;
-    position: relative;
-    transform: scale(var(--ggs,1));
-    border-top: 3.9px solid transparent;
-    border-bottom: 1.45px solid transparent;
-    box-shadow: inset 0 0 0 2px;
-    width: 24px;
-    height: 6px
-}
-.learn-more-arrow::after {
-    content: "";
-    box-sizing: border-box;
-    position: absolute;
-    width: 6px;
-    height: 6px;
-    border-top: 1.85px solid;
-    border-right: 1.85px solid;
-    transform: rotate(45deg);
-    right: 0;
-    bottom: -1.796px
-}
-
-
-/*Animation*/
-svg {
-  width:100%;
-  max-width:250px;
-  height:auto;
-  transform:rotateZ(0deg);
-  position: relative;
-}
-.smile{
-  stroke:#F3AE65;
-  stroke-width:1.3;
-  stroke-linecap:round;
-  fill:transparent;
-}
-.eyes{
-  stroke:#405EB1;
-  stroke-width:1.3;
-  stroke-linecap:round;
-  fill:transparent;
-}
-svg:hover {animation:rotate 1.2s cubic-bezier(0.65, 0.000, 0.75, 1.000);}
-svg:hover .smile{animation: smile 1s cubic-bezier(0.2, 0.000, 0.8, 1.000);}
-svg:hover .eyes{animation: eyes 1s cubic-bezier(.7, 0.000, 0.4, 1.000);}
-
-@keyframes rotate { to { transform:rotateZ(720deg); } }
-@keyframes smile { 50% { stroke-dasharray:20,5.1327;} }
-@keyframes eyes  { 70% { stroke-dasharray:1,0,.5,23.6327;} }
-
-.animate{
-	animation:rotate 1.2s cubic-bezier(0.65, 0.000, 0.75, 1.000);
-}
-.smile{
-	animation: smile 1s cubic-bezier(0.2, 0.000, 0.8, 1.000);
-}
-.eyes{
-	animation: eyes 1s cubic-bezier(.7, 0.000, 0.4, 1.000);
-}
-
-/*.animate .smiley{
-	animation: smile 1s cubic-bezier(0.2, 0.000, 0.8, 1.000);
-	animation: eyes 1s cubic-bezier(.7, 0.000, 0.4, 1.000);
-}*/
-
 
 /* VSCIA */ 
 
