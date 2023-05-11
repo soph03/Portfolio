@@ -180,7 +180,7 @@ nav li a {
     text-decoration: none;
 }
 
-nav li a:hover, nav li a:focus{
+.active, .nav-link:hover {
 	color: #F0A04B;
 }
 
