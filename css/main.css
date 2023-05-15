@@ -354,7 +354,7 @@ h3.margin-align, p.margin-align {
 	width: clamp(25ch, 85%, 45ch);
 }
 
-.home-projects-grid p{
+.home-projects-grid p, .home-projects-grid h3{
 	width: clamp(25ch, 85%, 45ch);
 }
 
