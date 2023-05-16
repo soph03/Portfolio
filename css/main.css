@@ -157,9 +157,14 @@ section{
 	padding-bottom: 3rem;
 }
 
+section#overview{
+	padding-top: 0rem;
+}
+
 #navigation {
 	margin-left: 5rem;
 	margin-right: 5rem;
+	margin-top: 1rem;
 	display: flex;
   align-items: center;
   justify-content: space-between;

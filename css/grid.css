@@ -44,7 +44,7 @@
 /* VSCIA */
 
 .summary-details{
-	margin-top: 1.5rem;
+	margin-top: 1rem;
 	margin-bottom: 2rem;
 	display: flex;
 	justify-content: space-between;
@@ -55,7 +55,7 @@
 	margin: 0em 2.5em 0em 2.5em;
 }
 .summary-item-title{
-	margin: 5em 2.5em 0em 2.5em;
+	margin: 2em 2.5em 0em 2.5em;
 }
 .vscia-grid, .google-research-grid{
 	display: grid;
@@ -81,7 +81,7 @@
 
 .highlight, .highlight-ea{
 	background-color: #F1F1F1;
-	padding: 2.5em 20em;
+	padding: 2.5em 10em;
 	text-align: center;
 	display: flex;
 	flex-direction: column;
