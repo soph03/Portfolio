@@ -60,7 +60,6 @@
 .vscia-grid, .google-research-grid{
 	display: grid;
 	grid-template-columns: 0.55fr 1fr;
-	grid-column-gap: 4.5em;
 	margin-top: 1rem;
 	margin-bottom: 2rem;
 }

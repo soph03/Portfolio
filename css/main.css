@@ -150,7 +150,7 @@ header, .project-container{
 	justify-content: center;
 }
 .project-item{
-	margin: 0em 28em 3em 28em;
+	margin: 0em 35em 3em 35em;
 }
 section{
 	padding-top: 3rem;
@@ -165,9 +165,11 @@ section#overview{
 	margin-left: 5rem;
 	margin-right: 5rem;
 	margin-top: 1rem;
-	display: flex;
-  align-items: center;
-  justify-content: space-between;
+  float: left;
+}
+
+#navigation ul li{
+	display: block;
 }
 
 em{
